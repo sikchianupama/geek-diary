@@ -1,0 +1,2 @@
+select top with skips
+SELECT  SKIP 50 first 100 order_orig_trckg_nbr FROM whse_order WHERE " create_ts > '2020-09-22 12:00:27' and create_ts < '2020-09-22 14:50:17'
